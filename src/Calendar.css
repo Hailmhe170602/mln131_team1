@@ -1,0 +1,298 @@
+/* src/Calendar.css */
+
+/* --- CÀI ĐẶT GỐC: FULL MÀN HÌNH --- */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Ngăn thanh cuộn ngang */
+}
+
+.calendar-page-container {
+  min-height: 100vh;
+  width: 100%;
+  
+  /* 💡 ĐƯỜNG DẪN ẢNH NỀN VÀ HIỆU ỨNG */
+  background-image: url('./assets/anhlichsu.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.calendar-main-card {
+  width: 100%;
+  max-width: 1100px;
+  height: 700px; 
+  
+  /* 💡 HIỆU ỨNG MỜ (Translucent) cho thẻ chính */
+  background-color: rgba(255, 255, 255, 0.8); /* Nền trắng mờ */
+  backdrop-filter: blur(10px); 
+  
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1); 
+  border-radius: 1.5rem; 
+  display: grid;
+  grid-template-columns: 1fr; 
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .calendar-main-card {
+    grid-template-columns: 1fr 1fr; /* Chia 2 cột cố định */
+  }
+}
+
+/* --- CỘT TRÁI: LỊCH VÀ HEADER --- */
+.calendar-grid-section {
+  /* 💡 HIỆU ỨNG MỜ cho cột lịch */
+  background-color: rgba(243, 244, 246, 0.8); /* Nền xám nhạt mờ */
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  height: 100%; 
+}
+
+.calendar-title {
+  font-size: 1.875rem; 
+  font-weight: 700; 
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.calendar-subtitle {
+  color: #6b7280; 
+  margin-bottom: 1.5rem;
+}
+
+.calendar-weekdays-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.25rem; 
+  width: 100%;
+  text-align: center;
+  font-weight: 600; 
+  color: #4b5563;
+}
+
+.calendar-weekdays-header div:first-child {
+  color: #ef4444; 
+}
+
+.calendar-weekdays-header div:last-child {
+  color: #3b82f6; 
+}
+
+/* --- LƯỚI NGÀY & ICON --- */
+.calendar-day-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.25rem; 
+  width: 100%;
+  margin-top: 1rem; /* Khoảng cách với tiêu đề thứ */
+}
+
+.day-cell-empty {
+  height: 4rem; /* Cập nhật để đồng bộ với nút */
+}
+
+.day-button {
+  height: 4rem; /* Tăng chiều cao để chứa icon */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem; 
+  transition: all 0.2s ease-in-out; 
+  border: 1px solid;
+  cursor: pointer;
+  padding: 0; /* Loại bỏ padding để quản lý icon dễ hơn */
+  position: relative;
+}
+
+.day-content-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.day-image-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Đảm bảo ảnh phủ hết nút */
+  border-radius: 0.5rem;
+  opacity: 0.2; /* Ảnh nền mờ cho nút ngày */
+  transition: opacity 0.2s;
+}
+
+.day-button:hover .day-image-icon {
+  opacity: 0.4;
+}
+
+.day-number {
+  font-size: 1rem; 
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Căn giữa số ngày */
+  z-index: 10;
+}
+
+/* TRẠNG THÁI NGÀY */
+.day-button-default {
+  background-color: rgba(255, 255, 255, 0.85); 
+  color: #4b5563; 
+  border-color: #e5e7eb;
+}
+
+.day-button-event {
+  background-color: rgba(239, 244, 255, 0.85); /* Tím nhạt mờ */
+  color: #4f46e5; 
+  border-color: #c7d2fe; 
+}
+
+.day-button-selected {
+  background-color: #4f46e5; 
+  color: #ffffff; 
+  border-color: #4f46e5; 
+}
+
+.day-button-selected .day-number {
+  color: #ffffff;
+}
+
+/* --- CỘT PHẢI: CHI TIẾT SỰ KIỆN --- */
+.event-detail-section {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  overflow-y: auto; 
+}
+
+.event-detail-title {
+  font-size: 1.5rem; 
+  font-weight: 700; 
+  color: #4338ca; 
+  margin-bottom: 1rem; 
+}
+
+.event-card {
+  border-left: 4px solid #6366f1;
+  padding-left: 0.75rem; 
+  margin-bottom: 1rem; 
+  background-color: #eef2ff; 
+  padding: 0.75rem; 
+  border-radius: 0.25rem;
+}
+
+.event-title {
+  font-weight: 600; 
+  color: #1f2937; 
+}
+
+.event-summary {
+  font-size: 0.875rem; 
+  color: #374151;
+  margin-top: 0.25rem; 
+}
+
+.event-year {
+  font-size: 0.75rem; 
+  color: #6b7280; 
+  margin-top: 0.5rem; 
+}
+
+.no-event-message {
+  color: #6b7280; 
+}
+
+.initial-prompt {
+  color: #9ca3af; 
+  font-style: italic;
+  margin-top: 2rem; 
+}
+.calendar-header-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Căn nút sang hai bên */
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.calendar-title {
+    /* Điều chỉnh lại style này để nó không chiếm hết chiều rộng */
+    flex-grow: 1; 
+    text-align: center;
+    font-size: 1.875rem; 
+    font-weight: 700; 
+    color: #1f2937;
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+.control-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4f46e5;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+}
+
+.control-button:hover {
+    background-color: rgba(79, 70, 229, 0.1);
+}
+
+/* 💡 QUAN TRỌNG: Điều chỉnh lại margin-top của subtitle */
+.calendar-subtitle {
+  color: #6b7280; 
+  margin-bottom: 1.5rem; 
+  margin-top: 0; /* Xóa margin-top không cần thiết */
+}
+.event-image {
+    max-width: 100%; /* Đảm bảo ảnh không tràn ra khỏi khung */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    border-radius: 8px; /* Bo tròn góc ảnh */
+    margin-bottom: 15px; /* Khoảng cách dưới ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo bóng nhẹ cho ảnh */
+}
+
+/* Tùy chỉnh thêm nếu cần cho các thẻ sự kiện */
+.event-card {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.event-title {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.event-summary {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.event-year {
+    font-style: italic;
+    color: #777;
+    font-size: 0.9em;
+}
