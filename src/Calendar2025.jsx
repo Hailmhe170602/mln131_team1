@@ -11,7 +11,83 @@ import thang1_4Image from "./assets/thang1/Thang1.4.jpg";
 import thang1_5Image from "./assets/thang1/Thang1.5.jpg"; 
 import thang1_6Image from "./assets/thang1/Thang1.6.jpg"; 
 import thang1_7Image from "./assets/thang1/Thang1.7.jpg"; 
+//Image thang 2
+import thang2_1Image from "./assets/thang2/Thang2.1.jpg"; 
+import thang2_2Image from "./assets/thang2/Thang2.2.jpg"; 
+import thang2_3Image from "./assets/thang2/Thang2.3.jpg"; 
+import thang2_4Image from "./assets/thang2/Thang2.4.jpg"; 
+import thang2_5Image from "./assets/thang2/Thang2.5.jpg"; 
+//thang3
+import thang3_1Image from "./assets/thang3/Thang3.1.jpg"; 
+import thang3_2Image from "./assets/thang3/Thang3.2.jpg"; 
+import thang3_3Image from "./assets/thang3/Thang3.3.jpg"; 
+import thang3_4Image from "./assets/thang3/Thang3.4.jpg"; 
+import thang3_5Image from "./assets/thang3/Thang3.5.jpg"; 
+import thang3_6Image from "./assets/thang3/Thang3.5.jpg"; 
+
+//thang4
+import thang4_1Image from "./assets/thang4/Thang4.1.jpg"; 
+import thang4_2Image from "./assets/thang4/Thang4.2.jpg"; 
+import thang4_3Image from "./assets/thang4/Thang4.3.jpg"; 
+import thang4_4Image from "./assets/thang4/Thang4.4.jpg"; 
+import thang4_5Image from "./assets/thang4/Thang4.5.jpg"; 
+//thang5
+import thang5_1Image from "./assets/thang5/Thang5.1.jpg"; 
+import thang5_2Image from "./assets/thang5/Thang5.2.jpg"; 
+import thang5_3Image from "./assets/thang5/Thang5.3.jpg"; 
+import thang5_4Image from "./assets/thang5/Thang5.4.jpg"; 
+import thang5_5Image from "./assets/thang5/Thang5.5.jpg"; 
+//thang6
+import thang6_1Image from "./assets/thang6/Thang6.1.jpg"; 
+import thang6_2Image from "./assets/thang6/Thang6.2.jpg"; 
+import thang6_3Image from "./assets/thang6/Thang6.3.jpg"; 
+import thang6_4Image from "./assets/thang6/Thang6.4.jpg"; 
+import thang6_5Image from "./assets/thang6/Thang6.5.jpg"; 
+import thang6_6Image from "./assets/thang6/Thang6.6.jpg"; 
+//thang7
+import thang7_1Image from "./assets/thang7/Thang7.1.jpg"; 
+import thang7_2Image from "./assets/thang7/Thang7.2.jpg"; 
+import thang7_3Image from "./assets/thang7/Thang7.3.jpg"; 
+import thang7_4Image from "./assets/thang7/Thang7.4.jpg"; 
+import thang7_5Image from "./assets/thang7/Thang7.5.jpg"; 
+//thang8
+import thang8_1Image from "./assets/thang8/Thang8.1.jpg"; 
+import thang8_2Image from "./assets/thang8/Thang8.2.jpg"; 
+import thang8_3Image from "./assets/thang8/Thang8.3.jpg"; 
+import thang8_4Image from "./assets/thang8/Thang8.4.jpg"; 
+import thang8_5Image from "./assets/thang8/Thang8.5.jpg"; 
+//thang9
+import thang9_1Image from "./assets/thang9/Thang9.1.jpg"; 
+import thang9_2Image from "./assets/thang9/Thang9.2.jpg"; 
+import thang9_3Image from "./assets/thang9/Thang9.3.jpg"; 
+import thang9_4Image from "./assets/thang9/Thang9.4.jpg"; 
+import thang9_5Image from "./assets/thang9/Thang9.5.jpg"; 
+import thang9_6Image from "./assets/thang9/Thang9.6.jpg"; 
+//thang10
+import thang10_1Image from "./assets/thang10/Thang10.1.jpg"; 
+import thang10_2Image from "./assets/thang10/Thang10.2.jpg"; 
+import thang10_3Image from "./assets/thang10/Thang10.3.jpg"; 
+import thang10_4Image from "./assets/thang10/Thang10.4.jpg"; 
+import thang10_5Image from "./assets/thang10/Thang10.5.jpg"; 
+import thang10_6Image from "./assets/thang10/Thang10.6.jpg"; 
+import thang10_7Image from "./assets/thang10/Thang10.7.jpg"; 
+//thang11
+import thang11_1Image from "./assets/thang11/Thang11.1.jpg"; 
+import thang11_2Image from "./assets/thang11/Thang11.2.jpg"; 
+import thang11_3Image from "./assets/thang11/Thang11.3.jpg"; 
+import thang11_4Image from "./assets/thang11/Thang11.4.jpg"; 
+import thang11_5Image from "./assets/thang11/Thang11.5.jpg"; 
+//thang12
+import thang12_1Image from "./assets/thang12/Thang12.1.jpg"; 
+import thang12_2Image from "./assets/thang12/Thang12.2.jpg"; 
+import thang12_3Image from "./assets/thang12/Thang12.3.jpg"; 
+import thang12_4Image from "./assets/thang12/Thang12.4.jpg"; 
+import thang12_5Image from "./assets/thang12/Thang12.5.jpg"; 
+import thang12_6Image from "./assets/thang12/Thang12.6.jpg"; 
 // Nếu bạn có ảnh khác trong assets, hãy import ở đây:
+// Nếu bạn có ảnh khác trong assets, hãy import ở đây:
+
+
 // import hinhAnhKhac from "./assets/duong_dan_den_anh.jpg"; 
 
 
@@ -40,197 +116,197 @@ const EVENTS = {
     ],
     // --- THÁNG 2 (Index 1) ---
     "2025-02-02": [
-        { title: "Ngày Thế giới Đất ngập nước", year: 1971, summary: "Ngày ký Công ước Ramsar về bảo tồn và sử dụng khôn ngoan các vùng đất ngập nước." }
+        { title: "Ngày Thế giới Đất ngập nước", year: 1971, summary: "Ngày ký Công ước Ramsar về bảo tồn và sử dụng khôn ngoan các vùng đất ngập nước." ,image: thang2_1Image}
     ],
     "2025-02-03": [
         // URL ảnh được giữ nguyên
-        { title: "Thành lập Đảng Cộng sản VN", year: 1930, summary: "Hội nghị hợp nhất các tổ chức Cộng sản tại Hương Cảng, sự kiện quan trọng trong lịch sử Việt Nam.", image: "https://example.com/images/dang_cs_vn.jpg" } 
+        { title: "Thành lập Đảng Cộng sản VN", year: 1930, summary: "Hội nghị hợp nhất các tổ chức Cộng sản tại Hương Cảng, sự kiện quan trọng trong lịch sử Việt Nam.",image: thang2_2Image } 
     ],
     "2025-02-07": [
-        { title: "Ngày Thử nghiệm Quốc gia (Ấn Độ)", year: 1999, summary: "Ngày tưởng niệm những người đã hi sinh trong các vụ thử hạt nhân." }
+        { title: "Ngày Thử nghiệm Quốc gia (Ấn Độ)", year: 1999, summary: "Ngày tưởng niệm những người đã hi sinh trong các vụ thử hạt nhân.",image: thang2_3Image }
     ],
     "2025-02-14": [
-        { title: "Ngày Tình yêu (Valentine)", year: 2025, summary: "Ngày lễ tình nhân truyền thống.", image: "https://example.com/images/valentine.jpg" }
+        { title: "Ngày Tình yêu (Valentine)", year: 2025, summary: "Ngày lễ tình nhân truyền thống.",image: thang2_4Image }
     ],
     "2025-02-22": [
-        { title: "Ngày Quốc tế Bảo vệ Thiên thần Hộ mệnh", year: 2025, summary: "Ngày tôn vinh các tổ chức và cá nhân giúp đỡ người khuyết tật, người già." }
+        { title: "Ngày Quốc tế Bảo vệ Thiên thần Hộ mệnh", year: 2025, summary: "Ngày tôn vinh các tổ chức và cá nhân giúp đỡ người khuyết tật, người già.",image: thang2_5Image }
     ],
     // ... Giữ nguyên các sự kiện còn lại trong EVENTS (chỉ sửa image: "./assets/thang1/Thang1.jpg" thành image: thang1Image) ...
     
     "2025-03-08": [
-        { title: "Quốc tế Phụ nữ", year: 1909, summary: "Kỷ niệm phong trào đấu tranh đòi quyền bình đẳng của nữ công nhân Mỹ.", image: "https://example.com/images/phunu.jpg" }
+        { title: "Quốc tế Phụ nữ", year: 1909, summary: "Kỷ niệm phong trào đấu tranh đòi quyền bình đẳng của nữ công nhân Mỹ.",image: thang3_1Image }
     ],
     "2025-03-13": [
-        { title: "Bắt đầu Chiến dịch Điện Biên Phủ", year: 1954, summary: "Mở màn trận đánh lịch sử tại Điện Biên Phủ." }
+        { title: "Bắt đầu Chiến dịch Điện Biên Phủ", year: 1954, summary: "Mở màn trận đánh lịch sử tại Điện Biên Phủ." ,image: thang3_2Image}
     ],
     "2025-03-17": [
-        { title: "Ngày Thống nhất Quốc gia (Ý) chính thức", year: 1861, summary: "Ngày thành lập Vương quốc Ý (ý nghĩa lịch sử)." }
+        { title: "Ngày Thống nhất Quốc gia (Ý) chính thức", year: 1861, summary: "Ngày thành lập Vương quốc Ý (ý nghĩa lịch sử)." ,image: thang3_3Image}
     ],
     "2025-03-22": [
-        { title: "Ngày Nước Thế giới", year: 1993, summary: "Ngày nâng cao nhận thức về tầm quan trọng của nước sạch." }
+        { title: "Ngày Nước Thế giới", year: 1993, summary: "Ngày nâng cao nhận thức về tầm quan trọng của nước sạch.",image: thang3_4Image }
     ],
     "2025-03-23": [
-        { title: "Ngày Khí tượng Thế giới", year: 1950, summary: "Ngày thành lập Tổ chức Khí tượng Thế giới (WMO)." }
+        { title: "Ngày Khí tượng Thế giới", year: 1950, summary: "Ngày thành lập Tổ chức Khí tượng Thế giới (WMO).",image: thang3_5Image }
     ],
     "2025-03-26": [
-        { title: "Thành lập Đoàn TNCS HCM", year: 1931, summary: "Ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh." }
+        { title: "Thành lập Đoàn TNCS HCM", year: 1931, summary: "Ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh." ,image: thang3_6Image}
     ],
     // --- THÁNG 4 (Index 3) ---
     "2025-04-02": [
-        { title: "Ngày Thế giới Nhận thức về Tự kỷ", year: 2008, summary: "Ngày nâng cao nhận thức về hội chứng tự kỷ." }
+        { title: "Ngày Thế giới Nhận thức về Tự kỷ", year: 2008, summary: "Ngày nâng cao nhận thức về hội chứng tự kỷ." ,image: thang4_1Image}
     ],
     "2025-04-11": [
-        { title: "Giỗ Tổ Hùng Vương", year: 2025, summary: "Ngày tưởng nhớ các vị Vua Hùng (Mùng 10 tháng 3 Âm lịch).", image: "https://example.com/images/gioto.jpg" } // Giả sử Giỗ Tổ rơi vào ngày này
+        { title: "Giỗ Tổ Hùng Vương", year: 2025, summary: "Ngày tưởng nhớ các vị Vua Hùng (Mùng 10 tháng 3 Âm lịch).",image: thang4_2Image } // Giả sử Giỗ Tổ rơi vào ngày này
     ],
     "2025-04-22": [
-        { title: "Ngày Trái Đất", year: 1970, summary: "Ngày vận động bảo vệ môi trường toàn cầu." }
+        { title: "Ngày Trái Đất", year: 1970, summary: "Ngày vận động bảo vệ môi trường toàn cầu." ,image: thang4_3Image}
     ],
     "2025-04-23": [
-        { title: "Ngày Sách và Bản quyền Thế giới", year: 1995, summary: "Ngày tôn vinh sách, văn hóa đọc và bản quyền." }
+        { title: "Ngày Sách và Bản quyền Thế giới", year: 1995, summary: "Ngày tôn vinh sách, văn hóa đọc và bản quyền." ,image: thang4_4Image}
     ],
     "2025-04-30": [
-        { title: "Giải phóng Miền Nam, Thống nhất Đất nước", year: 1975, summary: "Kết thúc cuộc Chiến tranh Việt Nam.", image: "https://example.com/images/giaiphongmiennam.jpg" }
+        { title: "Giải phóng Miền Nam, Thống nhất Đất nước", year: 1975, summary: "Kết thúc cuộc Chiến tranh Việt Nam.",image: thang4_5Image }
     ],
     // --- THÁNG 5 (Index 4) ---
     "2025-05-01": [
-        { title: "Ngày Quốc tế Lao động", year: 2025, summary: "Nghỉ lễ quốc tế tôn vinh người lao động, kỷ niệm cuộc biểu tình Haymarket năm 1886.", image: "https://example.com/images/quoctelaodong.jpg" }
+        { title: "Ngày Quốc tế Lao động", year: 2025, summary: "Nghỉ lễ quốc tế tôn vinh người lao động, kỷ niệm cuộc biểu tình Haymarket năm 1886.",image: thang5_1Image }
     ],
     "2025-05-03": [
-        { title: "Ngày Quốc tế Tự do Báo chí", year: 1993, summary: "Ngày nâng cao nhận thức về tầm quan trọng của tự do báo chí." }
+        { title: "Ngày Quốc tế Tự do Báo chí", year: 1993, summary: "Ngày nâng cao nhận thức về tầm quan trọng của tự do báo chí.",image: thang5_2Image }
     ],
     "2025-05-07": [
-        { title: "Chiến thắng Điện Biên Phủ", year: 1954, summary: "Kết thúc thắng lợi chiến dịch lịch sử, buộc Pháp ký Hiệp định Genève.", image: "https://example.com/images/dienbienphu.jpg" }
+        { title: "Chiến thắng Điện Biên Phủ", year: 1954, summary: "Kết thúc thắng lợi chiến dịch lịch sử, buộc Pháp ký Hiệp định Genève.",image: thang5_3Image }
     ],
     "2025-05-18": [
-        { title: "Ngày Palach Lãnh đạo (Ấn Độ)", year: 2025, summary: "Ngày tưởng niệm vị lãnh đạo và những người chiến đấu cho Ấn Độ." }
+        { title: "Ngày Palach Lãnh đạo (Ấn Độ)", year: 2025, summary: "Ngày tưởng niệm vị lãnh đạo và những người chiến đấu cho Ấn Độ.",image: thang5_4Image }
     ],
     "2025-05-19": [
-        { title: "Sinh nhật Chủ tịch Hồ Chí Minh", year: 1890, summary: "Kỷ niệm ngày sinh của vị lãnh tụ dân tộc Việt Nam.", image: "https://example.com/images/hochiminh.jpg" }
+        { title: "Sinh nhật Chủ tịch Hồ Chí Minh", year: 1890, summary: "Kỷ niệm ngày sinh của vị lãnh tụ dân tộc Việt Nam.",image: thang5_5Image }
     ],
     // --- THÁNG 6 (Index 5) ---
     "2025-06-01": [
-        { title: "Ngày Quốc tế Thiếu nhi", year: 1950, summary: "Ngày hội của trẻ em trên toàn thế giới, biểu thị sự đoàn kết vì trẻ thơ.", image: "https://example.com/images/thieunhi.jpg" }
+        { title: "Ngày Quốc tế Thiếu nhi", year: 1950, summary: "Ngày hội của trẻ em trên toàn thế giới, biểu thị sự đoàn kết vì trẻ thơ.",image: thang6_1Image }
     ],
     "2025-06-05": [
-        { title: "Bác Hồ ra đi tìm đường cứu nước", year: 1911, summary: "Người thanh niên Nguyễn Tất Thành rời cảng Sài Gòn.", image: "https://example.com/images/bacho_raddin.jpg" },
-        { title: "Ngày Môi trường Thế giới", year: 1972, summary: "Ngày nâng cao nhận thức về môi trường và khuyến khích hành động bảo vệ." }
+        { title: "Bác Hồ ra đi tìm đường cứu nước", year: 1911, summary: "Người thanh niên Nguyễn Tất Thành rời cảng Sài Gòn.",image: thang6_2Image },
+        { title: "Ngày Môi trường Thế giới", year: 1972, summary: "Ngày nâng cao nhận thức về môi trường và khuyến khích hành động bảo vệ.",image: thang6_3Image }
     ],
     "2025-06-08": [
-        { title: "Ngày Đại dương Thế giới", year: 2008, summary: "Ngày tôn vinh các đại dương trên thế giới và nâng cao nhận thức bảo vệ." }
+        { title: "Ngày Đại dương Thế giới", year: 2008, summary: "Ngày tôn vinh các đại dương trên thế giới và nâng cao nhận thức bảo vệ." ,image: thang6_4Image}
     ],
     "2025-06-21": [
-        { title: "Ngày Báo chí Cách mạng Việt Nam", year: 1925, summary: "Kỷ niệm ngày ra đời báo Thanh Niên do Nguyễn Ái Quốc sáng lập." }
+        { title: "Ngày Báo chí Cách mạng Việt Nam", year: 1925, summary: "Kỷ niệm ngày ra đời báo Thanh Niên do Nguyễn Ái Quốc sáng lập.",image: thang6_5Image }
     ],
     "2025-06-28": [
-        { title: "Bắt đầu Trận Thành cổ Quảng Trị", year: 1972, summary: "Trận chiến ác liệt kéo dài 81 ngày đêm tại Quảng Trị." }
+        { title: "Bắt đầu Trận Thành cổ Quảng Trị", year: 1972, summary: "Trận chiến ác liệt kéo dài 81 ngày đêm tại Quảng Trị." ,image: thang6_6Image}
     ],
     // --- THÁNG 7 (Index 6) ---
     "2025-07-02": [
-        { title: "Quốc hội khóa VI thông qua tên nước CHXHCN Việt Nam", year: 1976, summary: "Đổi tên nước chính thức sau khi thống nhất đất nước." }
+        { title: "Quốc hội khóa VI thông qua tên nước CHXHCN Việt Nam", year: 1976, summary: "Đổi tên nước chính thức sau khi thống nhất đất nước.",image: thang7_1Image }
     ],
     "2025-07-05": [
-        { title: "Ngày Quốc tế Hợp tác Xã", year: 1995, summary: "Thứ Bảy đầu tiên của tháng 7, kỷ niệm phong trào hợp tác xã toàn cầu." }
+        { title: "Ngày Quốc tế Hợp tác Xã", year: 1995, summary: "Thứ Bảy đầu tiên của tháng 7, kỷ niệm phong trào hợp tác xã toàn cầu." ,image: thang7_2Image}
     ],
     "2025-07-11": [
-        { title: "Ngày Dân số Thế giới", year: 1989, summary: "Ngày nâng cao nhận thức về các vấn đề dân số toàn cầu." }
+        { title: "Ngày Dân số Thế giới", year: 1989, summary: "Ngày nâng cao nhận thức về các vấn đề dân số toàn cầu." ,image: thang7_3Image}
     ],
     "2025-07-14": [
-        { title: "Ngày Quốc khánh Pháp (Bastille Day)", year: 1789, summary: "Kỷ niệm sự kiện phá ngục Bastille, biểu tượng cho Cách mạng Pháp.", image: "https://example.com/images/bastille.jpg" }
+        { title: "Ngày Quốc khánh Pháp (Bastille Day)", year: 1789, summary: "Kỷ niệm sự kiện phá ngục Bastille, biểu tượng cho Cách mạng Pháp.",image: thang7_4Image }
     ],
     "2025-07-27": [
-        { title: "Ngày Thương binh - Liệt sĩ", year: 1947, summary: "Ngày tri ân những người đã hy sinh vì độc lập, tự do của Tổ quốc.", image: "https://example.com/images/thuongbinh.jpg" }
+        { title: "Ngày Thương binh - Liệt sĩ", year: 1947, summary: "Ngày tri ân những người đã hy sinh vì độc lập, tự do của Tổ quốc.",image: thang7_5Image }
     ],
     // --- THÁNG 8 (Index 7) ---
     "2025-08-12": [
-        { title: "Ngày Quốc tế Thanh niên", year: 2000, summary: "Ngày tôn vinh và nâng cao vai trò của thanh niên trên toàn thế giới." }
+        { title: "Ngày Quốc tế Thanh niên", year: 2000, summary: "Ngày tôn vinh và nâng cao vai trò của thanh niên trên toàn thế giới.",image: thang8_1Image }
     ],
     "2025-08-19": [
-        { title: "Cách mạng Tháng Tám thành công", year: 1945, summary: "Khởi nghĩa giành chính quyền trên toàn quốc, thành lập nước Việt Nam Dân chủ Cộng hòa.", image: "https://example.com/images/cachtangtam.jpg" }
+        { title: "Cách mạng Tháng Tám thành công", year: 1945, summary: "Khởi nghĩa giành chính quyền trên toàn quốc, thành lập nước Việt Nam Dân chủ Cộng hòa.",image: thang8_2Image }
     ],
     "2025-08-20": [
-        { title: "Thành lập Đài Tiếng nói Việt Nam", year: 1945, summary: "Chủ tịch Hồ Chí Minh ký quyết định thành lập Đài." }
+        { title: "Thành lập Đài Tiếng nói Việt Nam", year: 1945, summary: "Chủ tịch Hồ Chí Minh ký quyết định thành lập Đài." ,image: thang8_3Image}
     ],
     "2025-08-28": [
-        { title: "Thành lập Bộ Công an", year: 1945, summary: "Ngày truyền thống của lực lượng Công an Nhân dân." }
+        { title: "Thành lập Bộ Công an", year: 1945, summary: "Ngày truyền thống của lực lượng Công an Nhân dân." ,image: thang8_4Image}
     ],
     "2025-08-30": [
-        { title: "Ngày Tưởng niệm Nạn nhân Chiến tranh Hóa học", year: 2005, summary: "Ngày tưởng niệm các nạn nhân chiến tranh hóa học." }
+        { title: "Ngày Tưởng niệm Nạn nhân Chiến tranh Hóa học", year: 2005, summary: "Ngày tưởng niệm các nạn nhân chiến tranh hóa học." ,image: thang8_5Image}
     ],
     // --- THÁNG 9 (Index 8) ---
     "2025-09-02": [
-        { title: "Quốc khánh Việt Nam", year: 1945, summary: "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn độc lập tại Quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.", image: "https://example.com/images/quockhanh.jpg" }
+        { title: "Quốc khánh Việt Nam", year: 1945, summary: "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn độc lập tại Quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.",image: thang9_1Image }
     ],
     "2025-09-07": [
-        { title: "Ngày Thành lập Đài Tiếng Nói Việt Nam", year: 1945, summary: "Kỷ niệm sự ra đời của cơ quan truyền thông quan trọng." }
+        { title: "Ngày Thành lập Đài Tiếng Nói Việt Nam", year: 1945, summary: "Kỷ niệm sự ra đời của cơ quan truyền thông quan trọng." ,image: thang9_2Image}
     ],
     "2025-09-08": [
-        { title: "Ngày Quốc tế Xóa nạn Mù chữ", year: 1967, summary: "Ngày nâng cao nhận thức về tầm quan trọng của việc biết chữ như một vấn đề nhân quyền và phẩm giá." }
+        { title: "Ngày Quốc tế Xóa nạn Mù chữ", year: 1967, summary: "Ngày nâng cao nhận thức về tầm quan trọng của việc biết chữ như một vấn đề nhân quyền và phẩm giá.",image: thang9_3Image }
     ],
     "2025-09-10": [
-        { title: "Thành lập Mặt trận Tổ quốc VN", year: 1955, summary: "Ngày thành lập Mặt trận Tổ quốc Việt Nam." }
+        { title: "Thành lập Mặt trận Tổ quốc VN", year: 1955, summary: "Ngày thành lập Mặt trận Tổ quốc Việt Nam.",image: thang9_4Image }
     ],
     "2025-09-21": [
-        { title: "Ngày Hòa bình Quốc tế", year: 1981, summary: "Ngày dành để củng cố lý tưởng hòa bình giữa các dân tộc.", image: "https://example.com/images/hoabinh.jpg" }
+        { title: "Ngày Hòa bình Quốc tế", year: 1981, summary: "Ngày dành để củng cố lý tưởng hòa bình giữa các dân tộc.",image: thang9_5Image }
     ],
     "2025-09-27": [
-        { title: "Ngày Du lịch Thế giới", year: 1980, summary: "Ngày nâng cao nhận thức về vai trò của du lịch trong cộng đồng quốc tế." }
+        { title: "Ngày Du lịch Thế giới", year: 1980, summary: "Ngày nâng cao nhận thức về vai trò của du lịch trong cộng đồng quốc tế." ,image: thang9_6Image}
     ],
     // --- THÁNG 10 (Index 9) ---
     "2025-10-01": [
-        { title: "Ngày Quốc tế Người cao tuổi", year: 1991, summary: "Ngày tôn vinh và nâng cao nhận thức về vấn đề của người cao tuổi." }
+        { title: "Ngày Quốc tế Người cao tuổi", year: 1991, summary: "Ngày tôn vinh và nâng cao nhận thức về vấn đề của người cao tuổi." ,image: thang10_1Image}
     ],
     "2025-10-10": [
-        { title: "Ngày Giải phóng Thủ đô", year: 1954, summary: "Quân đội Nhân dân Việt Nam tiến vào tiếp quản Hà Nội.", image: "https://example.com/images/giaiphongthudo.jpg" },
-        { title: "Ngày truyền thống Luật sư Việt Nam", year: 2025, summary: "Tôn vinh nghề luật sư." }
+        { title: "Ngày Giải phóng Thủ đô", year: 1954, summary: "Quân đội Nhân dân Việt Nam tiến vào tiếp quản Hà Nội.",image: thang10_2Image },
+        { title: "Ngày truyền thống Luật sư Việt Nam", year: 2025, summary: "Tôn vinh nghề luật sư." ,image: thang10_7Image}
     ],
     "2025-10-13": [
-        { title: "Ngày Doanh nhân Việt Nam", year: 2025, summary: "Tôn vinh vai trò của cộng đồng doanh nhân." }
+        { title: "Ngày Doanh nhân Việt Nam", year: 2025, summary: "Tôn vinh vai trò của cộng đồng doanh nhân.",image: thang10_3Image }
     ],
     "2025-10-20": [
-        { title: "Ngày Phụ nữ Việt Nam", year: 2025, summary: "Tôn vinh phụ nữ Việt Nam.", image: "https://example.com/images/phunuvn.jpg" }
+        { title: "Ngày Phụ nữ Việt Nam", year: 2025, summary: "Tôn vinh phụ nữ Việt Nam.",image: thang10_4Image}
     ],
     "2025-10-24": [
-        { title: "Ngày Liên Hợp Quốc", year: 1945, summary: "Kỷ niệm ngày Hiến chương Liên Hợp Quốc có hiệu lực." }
+        { title: "Ngày Liên Hợp Quốc", year: 1945, summary: "Kỷ niệm ngày Hiến chương Liên Hợp Quốc có hiệu lực.",image: thang10_5Image }
     ],
     "2025-10-31": [
-        { title: "Lễ Halloween", year: 2025, summary: "Lễ hội truyền thống phương Tây.", image: "https://example.com/images/halloween.jpg" }
+        { title: "Lễ Halloween", year: 2025, summary: "Lễ hội truyền thống phương Tây.",image: thang10_6Image }
     ],
 
     // --- THÁNG 11 (Index 10) ---
     "2025-11-09": [
-        { title: "Ngày Pháp luật Việt Nam", year: 2013, summary: "Ngày tôn vinh Hiến pháp và pháp luật." }
+        { title: "Ngày Pháp luật Việt Nam", year: 2013, summary: "Ngày tôn vinh Hiến pháp và pháp luật." ,image: thang11_1Image}
     ],
     "2025-11-20": [
-        { title: "Ngày Nhà giáo Việt Nam", year: 1982, summary: "Tôn vinh các thầy cô giáo.", image: "https://example.com/images/nhagiao.jpg" }
+        { title: "Ngày Nhà giáo Việt Nam", year: 1982, summary: "Tôn vinh các thầy cô giáo.",image: thang11_2Image }
     ],
     "2025-11-23": [
-        { title: "Ngày Nam Kỳ Khởi Nghĩa", year: 1940, summary: "Cuộc khởi nghĩa vũ trang chống Pháp tại Nam Kỳ." }
+        { title: "Ngày Nam Kỳ Khởi Nghĩa", year: 1940, summary: "Cuộc khởi nghĩa vũ trang chống Pháp tại Nam Kỳ.",image: thang11_3Image }
     ],
     "2025-11-27": [
-        { title: "Lễ Tạ Ơn (Thanksgiving)", year: 2025, summary: "Ngày lễ truyền thống lớn tại Mỹ (Thứ Năm tuần 4).", image: "https://example.com/images/thanksgiving.jpg" }
+        { title: "Lễ Tạ Ơn (Thanksgiving)", year: 2025, summary: "Ngày lễ truyền thống lớn tại Mỹ (Thứ Năm tuần 4).",image: thang11_4Image}
     ],
     "2025-11-29": [
-        { title: "Thứ Sáu Đen (Black Friday)", year: 2025, summary: "Ngày mua sắm giảm giá lớn (Thứ Sáu sau Lễ Tạ Ơn)." }
+        { title: "Thứ Sáu Đen (Black Friday)", year: 2025, summary: "Ngày mua sắm giảm giá lớn (Thứ Sáu sau Lễ Tạ Ơn).",image: thang11_5Image }
     ],
 
     // --- THÁNG 12 (Index 11) ---
     "2025-12-01": [
-        { title: "Ngày Thế giới phòng chống AIDS", year: 1988, summary: "Ngày nâng cao nhận thức về đại dịch AIDS." }
+        { title: "Ngày Thế giới phòng chống AIDS", year: 1988, summary: "Ngày nâng cao nhận thức về đại dịch AIDS." ,image: thang12_1Image}
     ],
     "2025-12-10": [
-        { title: "Ngày Quốc tế Nhân quyền", year: 1948, summary: "Đại hội đồng LHQ thông qua Tuyên ngôn Thế giới về Nhân quyền." }
+        { title: "Ngày Quốc tế Nhân quyền", year: 1948, summary: "Đại hội đồng LHQ thông qua Tuyên ngôn Thế giới về Nhân quyền.",image: thang12_2Image }
     ],
     "2025-12-19": [
-        { title: "Ngày Toàn quốc Kháng chiến", year: 1946, summary: "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến." }
+        { title: "Ngày Toàn quốc Kháng chiến", year: 1946, summary: "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến." ,image: thang12_3Image}
     ],
     "2025-12-22": [
-        { title: "Thành lập Quân đội Nhân dân Việt Nam", year: 1944, summary: "Ngày thành lập Đội Việt Nam Tuyên truyền Giải phóng quân.", image: "https://example.com/images/quandoi.jpg" }
+        { title: "Thành lập Quân đội Nhân dân Việt Nam", year: 1944, summary: "Ngày thành lập Đội Việt Nam Tuyên truyền Giải phóng quân.",image: thang12_4Image}
     ],
     "2025-12-25": [
-        { title: "Lễ Giáng sinh", year: 2025, summary: "Ngày lễ tôn giáo quan trọng của người Công giáo và Kitô giáo.", image: "https://example.com/images/giangsinh.jpg" }
+        { title: "Lễ Giáng sinh", year: 2025, summary: "Ngày lễ tôn giáo quan trọng của người Công giáo và Kitô giáo.",image: thang12_5Image }
     ],
     "2025-12-31": [
-        { title: "Đêm Giao thừa (New Year's Eve)", year: 2025, summary: "Đêm cuối cùng của năm, chuẩn bị chào đón năm mới." }
+        { title: "Đêm Giao thừa (New Year's Eve)", year: 2025, summary: "Đêm cuối cùng của năm, chuẩn bị chào đón năm mới." ,image: thang12_6Image}
     ],
 };
 
